@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import "./globals.scss";
 
 export const metadata: Metadata = {
   title: "Spider-Verse",
@@ -27,6 +28,12 @@ export default function RootLayout({
           width={260}
           height={70}
           />
+          <Image 
+          src="/icons/user.svg" 
+          alt="Login" 
+          width={36}
+          height={25}
+        />
       </header>
       <body>{children}</body>
     </html>
