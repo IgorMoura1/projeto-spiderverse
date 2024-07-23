@@ -15,27 +15,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <header>
-        <Image 
-          src="/icons/menu.svg" 
-          alt="Opções de menu" 
-          width={36}
-          height={25}
-        />
-        <Image 
-          src="/spider-logo.svg"
-          alt="Spiderman logo"
-          width={260}
-          height={70}
+      <body>
+        <header>
+          <Image
+            src="/icons/menu.svg"
+            alt="Opções de menu"
+            width={36}
+            height={25}
           />
-          <Image 
-          src="/icons/user.svg" 
+          <Image
+            src="/spider-logo.svg"
+            alt="Spiderman logo"
+            width={260}
+            height={70}
+          />
+          <Image src="/icons/user.svg" 
           alt="Login" 
-          width={36}
-          height={25}
-        />
-      </header>
-      <body>{children}</body>
+          width={36} 
+          height={25} 
+          />
+        </header>
+        {children}
+      </body>
     </html>
   );
 }
