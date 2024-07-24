@@ -1,4 +1,5 @@
 export interface IHeroData {
+  image: any;
   id: string;
   name: string;
   universe: number;
