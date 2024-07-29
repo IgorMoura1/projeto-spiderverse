@@ -179,7 +179,7 @@ export default function Carousel({ heroes, activeId }: IProps) {
                 animate={{ x: 0, ...getItemStyles(position) }}
                 exit={{
                   x: 0,
-                  left: "-20%",
+                  left: "-50%",
                   opacity: 0,
                   scale: 1,
                 }}
@@ -216,7 +216,7 @@ const getItemStyles = (position: enPosition) => {
 
   if (position === enPosition.MIDDLE) {
     return {
-      left: 400,
+      left: 600,
       scale: 0.8,
       top: "-10%",
       zIndex: 2,
@@ -226,7 +226,7 @@ const getItemStyles = (position: enPosition) => {
   return {
     filter: "blur(10px)",
     scale: 0.6,
-    left: 160,
+    left: 350,
     opacity: 0.8,
     zIndex: 1,
     top: "-20%",
