@@ -28,7 +28,7 @@
 
 ###
 
-<h3 align="left">🤯 Tecnicas aprendidas</h3>
+<h3 align="left">🤯 Tecnicas usadas</h3>
 
 ###
 
